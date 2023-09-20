@@ -44,7 +44,7 @@ up() {
   systemctl start unbound-netns.service
 
   # xhost allow access for gui apps
-  xhost +SI:localuser:"$(whoami)"
+  xhost +SI:localuser:djwilcox
 }
 
 
